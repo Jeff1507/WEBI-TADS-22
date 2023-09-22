@@ -1,5 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   --cor-primaria: #5eb3c3;
   --cor-secundaria: #444644;
   --cor-fundo: #e6e7e8;
+  font-family: 'Raleway', sans-serif;
 }
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40%;
+  padding: 40px 0;
+  background-color: var(--cor-primaria);
+}
+.menu ul{
+  gap: 40px;
+  display: flex;
+  list-style: none;
+}
+.menu nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+.topo{
+  background-color: var(--cor-primaria);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  gap: 30px;
+}
+.topo-texto h2{
+  margin-top: -60px;
+  font-size: 48px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: 600;
+}
+.topo-texto p{
+  width: 400px;
+  color: white;
+  font-size: 14px;
+}
+.mid-gray{
+  background-color: var(--cor-secundaria);
+  padding: 30px 0;
+}
+.mid-gray-texto{
+  text-align: center;
+  color: white;
+}
+.mid-gray-texto h2{
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+.mid-gray-texto p{
+  font-size: 14px;
+  font-weight: 300;
+}
+.branco-cards{
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.card-branco{
+  width: 300px;
+  height: 400px;
+}
+.card-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.card-titulo{
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+}
+.card-texto{
+  font-size: 12px;
+}
+
